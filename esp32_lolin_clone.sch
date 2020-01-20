@@ -12770,7 +12770,7 @@ Source: www.kingbright.com</description>
 <wire x1="314.96" y1="231.14" x2="314.96" y2="233.68" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$11" class="0">
+<net name="ESP32_EN" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="SW1" gate="G$1" pin="0@A"/>
