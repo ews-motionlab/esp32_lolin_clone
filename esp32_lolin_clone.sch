@@ -11601,7 +11601,15 @@ Source: www.kingbright.com</description>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="0.1524" drill="0.3">
+</class>
+<class number="1" name="GND" width="0.2" drill="0.3">
+</class>
+<class number="2" name="3V3" width="0.5" drill="0">
+</class>
+<class number="3" name="5V" width="0.5" drill="0">
+</class>
+<class number="4" name="VBAT" width="0.6" drill="0">
 </class>
 </classes>
 <parts>
@@ -12051,7 +12059,7 @@ Source: www.kingbright.com</description>
 <wire x1="119.38" y1="213.36" x2="119.38" y2="215.9" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="+3V3" class="0">
+<net name="+3V3" class="2">
 <segment>
 <pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="119.38" y1="226.06" x2="119.38" y2="228.6" width="0.1524" layer="91"/>
@@ -12577,7 +12585,7 @@ Source: www.kingbright.com</description>
 <label x="93.98" y="210.82" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="+5V" class="0">
+<net name="+5V" class="3">
 <segment>
 <pinref part="JP1" gate="G$1" pin="15"/>
 <wire x1="327.66" y1="60.96" x2="314.96" y2="60.96" width="0.1524" layer="91"/>
@@ -12636,7 +12644,7 @@ Source: www.kingbright.com</description>
 <label x="93.98" y="193.04" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="VBUS" class="0">
+<net name="VBUS" class="3">
 <segment>
 <pinref part="J1" gate="G$1" pin="VBUS"/>
 <wire x1="48.26" y1="35.56" x2="50.8" y2="35.56" width="0.1524" layer="91"/>
@@ -12686,7 +12694,7 @@ Source: www.kingbright.com</description>
 <label x="220.98" y="45.72" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="VIN" class="0">
+<net name="VIN" class="3">
 <segment>
 <pinref part="U3" gate="G$1" pin="CE"/>
 <pinref part="D2" gate="G$1" pin="C"/>
@@ -12716,7 +12724,7 @@ Source: www.kingbright.com</description>
 <junction x="220.98" y="218.44"/>
 </segment>
 </net>
-<net name="VBAT" class="0">
+<net name="VBAT" class="4">
 <segment>
 <pinref part="Q2" gate="G$1" pin="D"/>
 <wire x1="213.36" y1="228.6" x2="210.82" y2="228.6" width="0.1524" layer="91"/>
