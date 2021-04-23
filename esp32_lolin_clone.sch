@@ -1241,16 +1241,16 @@ reflow soldering</description>
 <pin name="C" x="2.54" y="0" visible="off" length="point" direction="pas" rot="R180"/>
 </symbol>
 <symbol name="S2B-PH-SM4-TB">
-<wire x1="0" y1="1.27" x2="2.54" y2="1.27" width="0.762" layer="94"/>
-<wire x1="0" y1="-1.27" x2="2.54" y2="-1.27" width="0.762" layer="94"/>
-<wire x1="-1.27" y1="3.81" x2="-1.27" y2="-3.81" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="-3.81" x2="5.08" y2="-3.81" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-3.81" x2="5.08" y2="3.81" width="0.254" layer="94"/>
-<wire x1="5.08" y1="3.81" x2="-1.27" y2="3.81" width="0.254" layer="94"/>
-<text x="-1.27181875" y="4.45046875" size="1.27181875" layer="95">&gt;NAME</text>
-<text x="-1.27098125" y="-5.71891875" size="1.2" layer="96">&gt;VALUE</text>
-<pin name="1" x="-5.08" y="1.27" length="middle" direction="pas"/>
-<pin name="2" x="-5.08" y="-1.27" length="middle" direction="pas"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="2.54" width="0.762" layer="94"/>
+<wire x1="0" y1="0" x2="2.54" y2="0" width="0.762" layer="94"/>
+<wire x1="-1.27" y1="5.08" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="-1.27" y2="5.08" width="0.254" layer="94"/>
+<text x="-1.27181875" y="5.72046875" size="1.27181875" layer="95">&gt;NAME</text>
+<text x="-1.27098125" y="-4.44891875" size="1.2" layer="96">&gt;VALUE</text>
+<pin name="1" x="-5.08" y="2.54" length="middle" direction="pas"/>
+<pin name="2" x="-5.08" y="0" length="middle" direction="pas"/>
 </symbol>
 <symbol name="NORMOPEN">
 <wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.1524" layer="94"/>
@@ -1413,9 +1413,9 @@ Please refer to the&lt;a href="https://assets.nexperia.com/documents/data-sheet/
 <technologies>
 <technology name="">
 <attribute name="DISTRIBUTOR" value="Mouser" constant="no"/>
-<attribute name="DISTRIBUTOR_REF" value="771-BCM857DS135" constant="no"/>
+<attribute name="DISTRIBUTOR_REF" value="771-BCM857BS135" constant="no"/>
 <attribute name="MANUFACTURER" value="Nexperia" constant="no"/>
-<attribute name="MANUFACTURER_REF" value="BCM857DS,135" constant="no"/>
+<attribute name="MANUFACTURER_REF" value="BCM857BS,135" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -12203,7 +12203,7 @@ Source: www.kingbright.com</description>
 </segment>
 <segment>
 <pinref part="P1" gate="G$1" pin="1"/>
-<wire x1="360.68" y1="218.44" x2="358.14" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="360.68" y1="217.17" x2="358.14" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="358.14" y1="218.44" x2="358.14" y2="215.9" width="0.1524" layer="91"/>
 <pinref part="GND12" gate="1" pin="GND"/>
 </segment>
@@ -12724,7 +12724,7 @@ Source: www.kingbright.com</description>
 <wire x1="342.9" y1="220.98" x2="342.9" y2="223.52" width="0.1524" layer="91"/>
 <label x="342.9" y="223.52" size="1.27" layer="95" rot="R90" xref="yes"/>
 <pinref part="P1" gate="G$1" pin="2"/>
-<wire x1="360.68" y1="220.98" x2="350.52" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="360.68" y1="219.71" x2="350.52" y2="220.98" width="0.1524" layer="91"/>
 <junction x="342.9" y="220.98"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="350.52" y1="220.98" x2="342.9" y2="220.98" width="0.1524" layer="91"/>
