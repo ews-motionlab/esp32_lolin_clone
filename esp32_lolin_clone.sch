@@ -11867,9 +11867,9 @@ Source: www.kingbright.com</description>
 <attribute name="NAME" x="344.3986" y="212.09" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="339.598" y="212.09" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="P1" gate="G$1" x="365.76" y="219.71" smashed="yes" rot="MR180">
-<attribute name="NAME" x="364.48818125" y="215.89453125" size="1.27181875" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="359.40901875" y="224.79391875" size="1.27098125" layer="96" rot="MR180"/>
+<instance part="P1" gate="G$1" x="365.76" y="218.44" smashed="yes">
+<attribute name="NAME" x="364.48818125" y="222.25546875" size="1.27181875" layer="95"/>
+<attribute name="VALUE" x="359.40901875" y="213.35608125" size="1.27098125" layer="96"/>
 </instance>
 <instance part="GND11" gate="1" x="342.9" y="198.12" smashed="yes">
 <attribute name="VALUE" x="340.36" y="195.58" size="1.778" layer="96"/>
@@ -12202,12 +12202,6 @@ Source: www.kingbright.com</description>
 <pinref part="GND11" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="P1" gate="G$1" pin="1"/>
-<wire x1="360.68" y1="217.17" x2="358.14" y2="218.44" width="0.1524" layer="91"/>
-<wire x1="358.14" y1="218.44" x2="358.14" y2="215.9" width="0.1524" layer="91"/>
-<pinref part="GND12" gate="1" pin="GND"/>
-</segment>
-<segment>
 <pinref part="U6" gate="IC" pin="GND"/>
 <pinref part="GND13" gate="1" pin="GND"/>
 <wire x1="213.36" y1="22.86" x2="215.9" y2="22.86" width="0.1524" layer="91"/>
@@ -12268,6 +12262,12 @@ Source: www.kingbright.com</description>
 <pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="350.52" y1="208.28" x2="350.52" y2="200.66" width="0.1524" layer="91" style="longdash"/>
 <pinref part="GND22" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="GND12" gate="1" pin="GND"/>
+<wire x1="358.14" y1="215.9" x2="358.14" y2="218.44" width="0.1524" layer="91"/>
+<pinref part="P1" gate="G$1" pin="2"/>
+<wire x1="358.14" y1="218.44" x2="360.68" y2="218.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="EN" class="0">
@@ -12723,12 +12723,12 @@ Source: www.kingbright.com</description>
 <wire x1="340.36" y1="220.98" x2="342.9" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="342.9" y1="220.98" x2="342.9" y2="223.52" width="0.1524" layer="91"/>
 <label x="342.9" y="223.52" size="1.27" layer="95" rot="R90" xref="yes"/>
-<pinref part="P1" gate="G$1" pin="2"/>
-<wire x1="360.68" y1="219.71" x2="350.52" y2="220.98" width="0.1524" layer="91"/>
 <junction x="342.9" y="220.98"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="350.52" y1="220.98" x2="342.9" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="350.52" y1="215.9" x2="350.52" y2="220.98" width="0.1524" layer="91" style="longdash"/>
+<pinref part="P1" gate="G$1" pin="1"/>
+<wire x1="350.52" y1="220.98" x2="360.68" y2="220.98" width="0.1524" layer="91"/>
 <junction x="350.52" y="220.98"/>
 </segment>
 </net>
